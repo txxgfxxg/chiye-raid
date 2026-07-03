@@ -395,7 +395,7 @@
   const RUNS_PER_WEEK = 20;
   const MAX_PER_RUN = 10;
 
-  // ★ 关键改动：始终生成 100 行，超过名单部分为默认空
+  // ★ 关键改动：始终生成 120 行，超过名单部分为默认空
   const players = Array.from({length: MAX_MEMBERS}, (_, idx) => ({
     id: idx,
     name: playerNames[idx] || "",
